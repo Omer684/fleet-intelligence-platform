@@ -463,7 +463,7 @@ if app_mode == "Operations Center":
     ch1, ch2 = st.columns(2)
     with ch1:
         st.markdown('<div class="section-label">36-hour demand horizon</div>', unsafe_allow_html=True)
-        hrs = pd.date_range(end=pd.Timestamp.now(), periods=36, freq='H')
+        hrs = pd.date_range(end=pd.Timestamp.now(), periods=36, freq='h')
         obs = np.random.randint(60, 150, size=24)
         fc  = np.concatenate([[obs[-1]], np.random.randint(70, 180, size=12)])
         fig = go.Figure()
