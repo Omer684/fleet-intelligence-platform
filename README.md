@@ -2,7 +2,7 @@
 
 An enterprise-grade, real-time logistics control room dashboard that leverages predictive machine learning and operations research optimization to dynamically reallocate delivery fleets across volatile urban corridors.
 
-🌐 **Live Interactive App:** [PASTE_YOUR_STREAMLIT_URL_HERE]
+🌐 **Live Interactive App:** https://logistics-control-tower.streamlit.app/
 
 ---
 
